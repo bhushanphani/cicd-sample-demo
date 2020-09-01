@@ -53,6 +53,19 @@
         </dependency>
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>xtiviatest-artifactory-primary-0-releases</name>
+			<url>https://xtiviatest.jfrog.io/artifactory/release</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>xtiviatest-artifactory-primary-0-snapshots</name>
+			<url>https://xtiviatest.jfrog.io/artifactory/release</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<repositories>
           <repository>
             <id>anypoint-exchange</id>
