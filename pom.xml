@@ -9,6 +9,13 @@
     <packaging>mule-application</packaging>
 
 	<name>cicd-sample-deployment</name>
+	
+	<!--using hertz parent pom-->
+	<parent>
+		<groupId>com.hertz.mule4</groupId>
+		<artifactId>lib-parent-pom</artifactId>
+		<version>1.0.1</version>
+	</parent>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
